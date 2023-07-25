@@ -81,7 +81,7 @@ body {
 
 /* barra de pesquisa, texto do composer e digitação de mensagem fica um cinza mais escuro */
 
-.jcmOYU, .hQDfWJ, .dTEfKZ, .eOCVkB > textarea, .dsAKBK, .dQyDKS > textarea, .brfMOC, .ctMJNc {
+.jcmOYU, .hQDfWJ, .dTEfKZ, .eOCVkB > textarea, .dsAKBK, .dQyDKS > textarea, .brfMOC, .ctMJNc, .hQDfWJ > textarea {
   background: #202327;
 }
 
