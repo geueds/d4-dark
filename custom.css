@@ -1,0 +1,180 @@
+/* importar a fonte chirp */
+
+@font-face {
+  font-family: TwitterChirp;
+  src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Light.3a18e64a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Light.7a5673aa.woff) format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: TwitterChirp;
+  src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.80fda27a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Regular.60b215ba.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: TwitterChirp;
+  src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Medium.f8e2739a.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Medium.20fc288a.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: TwitterChirp;
+  src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.ebb56aba.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Bold.a573679a.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: TwitterChirp;
+  src: url(https://abs.twimg.com/responsive-web/client-web/Chirp-Heavy.f44ae4ea.woff2) format('woff2'), url(https://abs.twimg.com/responsive-web/client-web/Chirp-Heavy.d70ec7ca.woff) format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: TwitterChirpExtendedHeavy;
+  src: url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff2) format('woff2'), url(https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff) format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* aplicar a fonte chirp, em segundo caso apenas colocar as fontes de sistema em primeiro lugar no caso de sistemas da apple */
+
+html {
+  font-family: TwitterChirp, -apple-system, Roboto, system-ui, BlinkMacSystemFont, "Segoe UI", Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+/* coloca o plano de fundo como preto puro #000000 */
+
+body {
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden auto;
+  overflow-anchor: auto;
+  overscroll-behavior: none;
+  background: rgb(0, 0, 0);
+}
+
+/* a barra superior se torna translúcida com desfoque de fundo */
+
+.jNfmcj {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+/* as bordas ficam mais escuras */
+
+.qVsxm {
+  line-height: 0px;
+  margin: 0px;
+  border-color: rgb(47, 51, 54);
+}
+
+/* barra de pesquisa, texto do composer e digitação de mensagem fica um cinza mais escuro */
+
+.jcmOYU, .hQDfWJ, .dTEfKZ, .eOCVkB > textarea, .dsAKBK {
+  background: #202327;
+}
+
+.bqzUOE {
+  background: rgb(0,0,0);
+}
+
+.iVJSOy {
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(12px);
+}
+
+.eUvJGV {
+  font-weight: 800;
+}
+
+.QiBBD .active .title {
+  font-weight: 800 !important;
+  text-transform: uppercase;
+}
+
+.hMfpbi {
+  font-weight: 700 !important;
+}
+
+.cwZZBN {
+  font-weight: 800;
+}
+
+.jaTMRm {
+  background: #e1142c;
+}
+
+.eLsms {
+  background: #e1142c;
+}
+
+.jivwKZ, .bgQecm {
+  color: #e1142c;
+}
+
+.kAZxme {
+  background: rgb(0, 0, 0);
+}
+
+/* o fundo preto separando entre o primeiro e o segundo plano (indo postar algo, configurações, mensagens) agora tem desfoque */
+
+.kQnhxv, .bMlBSW, .drHTOX, .eLWjGE {
+    background: rgb(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+
+
+/* fundo das mensagens, composer, fica preto #000000 */
+
+.hqBxAi, .kGMuJM, .exBPow, .gnuxhG {
+  background-color: black;
+}
+
+/* mensagens enviadas ficam cinza escuro */
+
+.hIJBrw, .efUAlw, .hXDhao {
+  background: rgb(36, 36, 36);
+}
+
+/* mensagens recebidas também */
+
+.iOBquA, .ibMzYQ, .irEgRs {
+  background: rgb(55, 55, 55);
+}
+
+
+
+/* o visualizado das mensagens fica vermelho */
+
+.eOWsB, .mjxwG, .eOWsBg {
+  color: #e1142c;
+}
+
+/* seguindo e seguir vermelho */
+
+.huxzSi, .duYfSR, .gcDYgW, .kjEjAj, .kCZYVN {
+    border: 1px solid #e1142c;
+}
+
+.duYfSR, .cia-DRQ {
+    color: #e1142c;
+}
+
+.huxzSi, .gcDYgW, .kjEjAj, .kCZYVN {
+    background: #e1142c;
+}
+
+.jxNcSA {
+    color: #e1142c;
+}
