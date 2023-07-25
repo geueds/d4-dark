@@ -81,7 +81,7 @@ body {
 
 /* barra de pesquisa, texto do composer e digitação de mensagem fica um cinza mais escuro */
 
-.jcmOYU, .hQDfWJ, .dTEfKZ, .eOCVkB > textarea, .dsAKBK {
+.jcmOYU, .hQDfWJ, .dTEfKZ, .eOCVkB > textarea, .dsAKBK, .dQyDKS > textarea, .brfMOC {
   background: #202327;
 }
 
@@ -119,7 +119,7 @@ body {
   background: #e1142c;
 }
 
-.jivwKZ, .bgQecm {
+.jivwKZ, .bgQecm, .kRaSQr {
   color: #e1142c;
 }
 
@@ -129,7 +129,7 @@ body {
 
 /* o fundo preto separando entre o primeiro e o segundo plano (indo postar algo, configurações, mensagens) agora tem desfoque */
 
-.kQnhxv, .bMlBSW, .drHTOX, .eLWjGE {
+.kQnhxv, .bMlBSW, .drHTOX, .eLWjGE, .fZgZfv, .froKVS {
     background: rgb(0, 0, 0, 0.5);
     backdrop-filter: blur(4px);
 }
@@ -137,13 +137,13 @@ body {
 
 /* fundo das mensagens, composer, fica preto #000000 */
 
-.hqBxAi, .kGMuJM, .exBPow, .gnuxhG {
+.hqBxAi, .kGMuJM, .exBPow, .gnuxhG, .bGrfVI, .jughtl, .ejUOAi {
   background-color: black;
 }
 
 /* mensagens enviadas ficam cinza escuro */
 
-.hIJBrw, .efUAlw, .hXDhao {
+.hIJBrw, .efUAlw, .hXDhao, .geDAyx {
   background: rgb(36, 36, 36);
 }
 
